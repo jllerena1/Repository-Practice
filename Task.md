@@ -17,7 +17,8 @@ Complete each task and check it off as you finish. This checklist will help you 
 - [x] Create a new repository on GitHub.com
 - [x] Initialize a local Git repository in a folder
 - [x] Connect your local folder to the GitHub repository
-- [ ] Clone an existing repository from GitHub
+- [x] Add remote repository (`git remote add origin`)
+- [x] Clone an existing repository from GitHub
 - [x] Verify remote repository connection (`git remote -v`)
 
 ---
@@ -186,7 +187,7 @@ Practice these Git commands in terminal:
 
 ## Progress Tracking
 
-**Completed Tasks:** 10 / 80+
+**Completed Tasks:** 12 / 80+
 
 **Last Updated:** December 2024
 
