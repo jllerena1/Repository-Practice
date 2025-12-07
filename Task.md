@@ -25,23 +25,23 @@ Complete each task and check it off as you finish. This checklist will help you 
 
 ## Branching
 
-- [ ] Create a new branch called `feature/test-branch`
-- [ ] Switch to the new branch
-- [ ] Create another branch called `bugfix/test-fix`
-- [ ] Switch back to main branch
-- [ ] View all branches (`git branch`)
-- [ ] Delete a local branch (after switching away from it)
-- [ ] Create a branch following naming conventions (feature/, bugfix/, docs/)
+- [x] Create a new branch called `feature/test-branch`
+- [x] Switch to the new branch
+- [x] Create another branch called `bugfix/test-fix`
+- [x] Switch back to main branch
+- [x] View all branches (`git branch`)
+- [x] Delete a local branch (after switching away from it)
+- [x] Create a branch following naming conventions (feature/, bugfix/, docs/)
 
 ---
 
 ## Making & Tracking Changes
 
-- [ ] Make changes to an existing file
-- [ ] Create a new file in your repository
-- [ ] View changes in Source Control panel
-- [ ] View the diff (difference) of your changes
-- [ ] Check Git status using terminal (`git status`)
+- [x] Make changes to an existing file
+- [x] Create a new file in your repository
+- [x] View changes in Source Control panel
+- [x] View the diff (difference) of your changes
+- [x] Check Git status using terminal (`git status`)
 
 ---
 
@@ -187,7 +187,7 @@ Practice these Git commands in terminal:
 
 ## Progress Tracking
 
-**Completed Tasks:** 12 / 80+
+**Completed Tasks:** 24 / 80+
 
 **Last Updated:** December 2024
 
@@ -198,5 +198,5 @@ Practice these Git commands in terminal:
 
 ---
 
-*Keep practicing! Each checkmark brings you closer to mastering GitHub workflows. 🎯*
+*Keep practicing! Each checkmark brings you closer to mastering GitHub workflows. 🎯🎯*
 
