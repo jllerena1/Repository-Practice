@@ -25,32 +25,32 @@ Complete each task and check it off as you finish. This checklist will help you 
 
 ## Branching
 
-- [ ] Create a new branch called `feature/test-branch`
-- [ ] Switch to the new branch
-- [ ] Create another branch called `bugfix/test-fix`
-- [ ] Switch back to main branch
-- [ ] View all branches (`git branch`)
-- [ ] Delete a local branch (after switching away from it)
-- [ ] Create a branch following naming conventions (feature/, bugfix/, docs/)
+- [x] Create a new branch called `feature/test-branch`
+- [x] Switch to the new branch
+- [x] Create another branch called `bugfix/test-fix`
+- [x] Switch back to main branch
+- [x] View all branches (`git branch`)
+- [x] Delete a local branch (after switching away from it)
+- [x] Create a branch following naming conventions (feature/, bugfix/, docs/)
 
 ---
 
 ## Making & Tracking Changes
 
-- [ ] Make changes to an existing file
-- [ ] Create a new file in your repository
-- [ ] View changes in Source Control panel
-- [ ] View the diff (difference) of your changes
-- [ ] Check Git status using terminal (`git status`)
+- [x] Make changes to an existing file
+- [x] Create a new file in your repository
+- [x] View changes in Source Control panel
+- [x] View the diff (difference) of your changes
+- [x] Check Git status using terminal (`git status`)
 
 ---
 
 ## Staging Changes
 
-- [ ] Stage a single file using Source Control panel
-- [ ] Stage all changes at once
-- [ ] Stage changes using terminal (`git add`)
-- [ ] View staged changes (`git diff --staged`)
+- [x] Stage a single file using Source Control panel
+- [x] Stage all changes at once
+- [x] Stage changes using terminal (`git add`)
+- [x] View staged changes (`git diff --staged`)
 
 ---
 
@@ -58,19 +58,19 @@ Complete each task and check it off as you finish. This checklist will help you 
 
 - [x] Write a good commit message (clear and descriptive)
 - [x] Commit changes using Source Control panel
-- [ ] Commit changes using terminal (`git commit`)
-- [ ] Write a multi-line commit message (title + body)
-- [ ] Make at least 3 commits with different messages
+- [x] Commit changes using terminal (`git commit`)
+- [x] Write a multi-line commit message (title + body)
+- [x] Make at least 3 commits with different messages
 
 ---
 
 ## Pushing & Pulling
 
 - [x] Push your commits to GitHub (first time)
-- [ ] Push a new branch to GitHub
+- [x] Push a new branch to GitHub
 - [x] Set upstream branch when pushing
-- [ ] Pull latest changes from GitHub
-- [ ] Pull with rebase option
+- [x] Pull latest changes from GitHub
+- [x] Pull with rebase option
 - [x] Verify your changes appear on GitHub.com
 
 ---
@@ -187,7 +187,7 @@ Practice these Git commands in terminal:
 
 ## Progress Tracking
 
-**Completed Tasks:** 12 / 80+
+**Completed Tasks:** 36 / 80+
 
 **Last Updated:** December 2024
 
