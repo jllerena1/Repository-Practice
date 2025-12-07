@@ -47,10 +47,10 @@ Complete each task and check it off as you finish. This checklist will help you 
 
 ## Staging Changes
 
-- [ ] Stage a single file using Source Control panel
-- [ ] Stage all changes at once
-- [ ] Stage changes using terminal (`git add`)
-- [ ] View staged changes (`git diff --staged`)
+- [x] Stage a single file using Source Control panel
+- [x] Stage all changes at once
+- [x] Stage changes using terminal (`git add`)
+- [x] View staged changes (`git diff --staged`)
 
 ---
 
@@ -187,7 +187,7 @@ Practice these Git commands in terminal:
 
 ## Progress Tracking
 
-**Completed Tasks:** 24 / 80+
+**Completed Tasks:** 28 / 80+
 
 **Last Updated:** December 2024
 
