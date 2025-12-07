@@ -10,15 +10,16 @@ This guide contains step-by-step instructions for practicing GitHub workflows us
 4. [Creating a Branch](#4-creating-a-branch)
 5. [Switching Between Branches](#5-switching-between-branches)
 6. [Making Changes](#6-making-changes)
-7. [Staging Changes](#7-staging-changes)
-8. [Committing Changes](#8-committing-changes)
-9. [Pushing to GitHub](#9-pushing-to-github)
-10. [Pulling from GitHub](#10-pulling-from-github)
-11. [Viewing Commit History](#11-viewing-commit-history)
-12. [Creating a Pull Request](#12-creating-a-pull-request)
-13. [Merging Branches](#13-merging-branches)
-14. [Resolving Merge Conflicts](#14-resolving-merge-conflicts)
-15. [Reverting Changes](#15-reverting-changes)
+7. [Renaming Files](#7-renaming-files)
+8. [Staging Changes](#8-staging-changes)
+9. [Committing Changes](#9-committing-changes)
+10. [Pushing to GitHub](#10-pushing-to-github)
+11. [Pulling from GitHub](#11-pulling-from-github)
+12. [Viewing Commit History](#12-viewing-commit-history)
+13. [Creating a Pull Request](#13-creating-a-pull-request)
+14. [Merging Branches](#14-merging-branches)
+15. [Resolving Merge Conflicts](#15-resolving-merge-conflicts)
+16. [Reverting Changes](#16-reverting-changes)
 
 ---
 
@@ -190,7 +191,62 @@ git switch branch-name
 
 ---
 
-## 7. Staging Changes
+## 7. Renaming Files
+
+### Step-by-Step:
+
+1. **Rename File Using Git** (Recommended)
+   - Open terminal in Cursor (`Ctrl + ~` or `View` → `Terminal`)
+   - Use `git mv` command:
+     ```bash
+     git mv old-filename.md new-filename.md
+     ```
+   - Git will automatically stage the rename
+
+2. **Commit the Rename**
+   - The file is already staged, so commit:
+     ```bash
+     git commit -m "Rename old-filename.md to new-filename.md"
+     ```
+
+3. **Push to GitHub**
+   - Push the changes to update GitHub:
+     ```bash
+     git push
+     ```
+
+### Alternative Method: Manual Rename
+
+1. **Rename File Manually**
+   - Rename the file in Cursor's file explorer or your system file manager
+   - Git will detect it as a deletion and addition
+
+2. **Stage Both Changes**
+   ```bash
+   git add old-filename.md new-filename.md
+   # Or stage all changes
+   git add .
+   ```
+
+3. **Git Will Detect Rename**
+   - If the file content is similar, Git will detect it as a rename
+   - Check with: `git status` (should show "renamed:")
+
+4. **Commit and Push**
+   ```bash
+   git commit -m "Rename old-filename.md to new-filename.md"
+   git push
+   ```
+
+### Notes:
+- `git mv` is the preferred method as it explicitly tracks the rename
+- Git detects renames automatically if file content is similar
+- Renaming preserves file history in Git
+- The old filename will be replaced with the new one on GitHub after pushing
+
+---
+
+## 8. Staging Changes
 
 ### Step-by-Step:
 
@@ -217,7 +273,7 @@ git add .
 
 ---
 
-## 8. Committing Changes
+## 9. Committing Changes
 
 ### Step-by-Step:
 
@@ -246,7 +302,7 @@ git commit -m "Your commit message here"
 
 ---
 
-## 9. Pushing to GitHub
+## 10. Pushing to GitHub
 
 ### Step-by-Step:
 
@@ -279,7 +335,7 @@ git push -u origin branch-name
 
 ---
 
-## 10. Pulling from GitHub
+## 11. Pulling from GitHub
 
 ### Step-by-Step:
 
@@ -305,7 +361,7 @@ git pull --rebase
 
 ---
 
-## 11. Viewing Commit History
+## 12. Viewing Commit History
 
 ### Step-by-Step:
 
@@ -331,7 +387,7 @@ git pull --rebase
 
 ---
 
-## 12. Creating a Pull Request
+## 13. Creating a Pull Request
 
 ### Step-by-Step:
 
@@ -356,7 +412,7 @@ git pull --rebase
 
 ---
 
-## 13. Merging Branches
+## 14. Merging Branches
 
 ### Option A: Merge via Pull Request (Recommended)
 
@@ -389,7 +445,7 @@ git pull --rebase
 
 ---
 
-## 14. Resolving Merge Conflicts
+## 15. Resolving Merge Conflicts
 
 ### Step-by-Step:
 
@@ -425,7 +481,7 @@ git pull --rebase
 
 ---
 
-## 15. Reverting Changes
+## 16. Reverting Changes
 
 ### Discard Uncommitted Changes:
 
@@ -475,6 +531,9 @@ git diff --staged
 # Rename branch
 git branch -m old-name new-name
 
+# Rename file
+git mv old-filename.md new-filename.md
+
 # Delete branch
 git branch -d branch-name
 
@@ -513,7 +572,7 @@ git remote set-url origin NEW_URL
 - Re-authenticate in Cursor settings
 
 ### "Merge conflict" error
-- See section 14 for resolving conflicts
+- See section 15 for resolving conflicts
 - Consider using `git pull --rebase` to avoid merge commits
 
 ---
