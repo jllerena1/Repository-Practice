@@ -58,9 +58,9 @@ Complete each task and check it off as you finish. This checklist will help you 
 
 - [x] Write a good commit message (clear and descriptive)
 - [x] Commit changes using Source Control panel
-- [ ] Commit changes using terminal (`git commit`)
-- [ ] Write a multi-line commit message (title + body)
-- [ ] Make at least 3 commits with different messages
+- [x] Commit changes using terminal (`git commit`)
+- [x] Write a multi-line commit message (title + body)
+- [x] Make at least 3 commits with different messages
 
 ---
 
@@ -187,7 +187,7 @@ Practice these Git commands in terminal:
 
 ## Progress Tracking
 
-**Completed Tasks:** 28 / 80+
+**Completed Tasks:** 33 / 80+
 
 **Last Updated:** December 2024
 
