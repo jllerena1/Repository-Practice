@@ -14,11 +14,11 @@ Complete each task and check it off as you finish. This checklist will help you 
 
 ## Repository Management
 
-- [ ] Create a new repository on GitHub.com
-- [ ] Initialize a local Git repository in a folder
-- [ ] Connect your local folder to the GitHub repository
+- [x] Create a new repository on GitHub.com
+- [x] Initialize a local Git repository in a folder
+- [x] Connect your local folder to the GitHub repository
 - [ ] Clone an existing repository from GitHub
-- [ ] Verify remote repository connection (`git remote -v`)
+- [x] Verify remote repository connection (`git remote -v`)
 
 ---
 
@@ -55,8 +55,8 @@ Complete each task and check it off as you finish. This checklist will help you 
 
 ## Committing
 
-- [ ] Write a good commit message (clear and descriptive)
-- [ ] Commit changes using Source Control panel
+- [x] Write a good commit message (clear and descriptive)
+- [x] Commit changes using Source Control panel
 - [ ] Commit changes using terminal (`git commit`)
 - [ ] Write a multi-line commit message (title + body)
 - [ ] Make at least 3 commits with different messages
@@ -65,12 +65,12 @@ Complete each task and check it off as you finish. This checklist will help you 
 
 ## Pushing & Pulling
 
-- [ ] Push your commits to GitHub (first time)
+- [x] Push your commits to GitHub (first time)
 - [ ] Push a new branch to GitHub
-- [ ] Set upstream branch when pushing
+- [x] Set upstream branch when pushing
 - [ ] Pull latest changes from GitHub
 - [ ] Pull with rebase option
-- [ ] Verify your changes appear on GitHub.com
+- [x] Verify your changes appear on GitHub.com
 
 ---
 
@@ -186,7 +186,7 @@ Practice these Git commands in terminal:
 
 ## Progress Tracking
 
-**Completed Tasks:** 3 / 80+
+**Completed Tasks:** 10 / 80+
 
 **Last Updated:** December 2024
 
