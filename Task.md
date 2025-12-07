@@ -66,7 +66,7 @@ Complete each task and check it off as you finish. This checklist will help you 
 
 ## Pushing & Pulling
 
-- [x] Push your commits to GitHub (first time)
+- [x] Push your commits to GitHub ( first time )
 - [ ] Push a new branch to GitHub
 - [x] Set upstream branch when pushing
 - [ ] Pull latest changes from GitHub
