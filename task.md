@@ -1,4 +1,4 @@
-# GitHub Practice Tasks :
+# GitHub Practice Tasks:
 
 Complete each task and check it off as you finish. This checklist will help you track your progress learning GitHub workflows in Cursor.
 
