@@ -1,4 +1,4 @@
-# GitHub Practice Guide
+# GitHub Practice Guide:
 
 This guide contains step-by-step instructions for practicing GitHub workflows using Cursor IDE, from connecting to committing and saving changes.
 
