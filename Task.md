@@ -77,11 +77,11 @@ Complete each task and check it off as you finish. This checklist will help you 
 
 ## Viewing History
 
-- [ ] View commit history using terminal (`git log`)
-- [ ] View commit history with graph (`git log --graph`)
-- [ ] View last 5 commits
-- [ ] View file history for a specific file
-- [ ] Use Git Graph extension (if installed) to visualize history
+- [x] View commit history using terminal (`git log`)
+- [x] View commit history with graph (`git log --graph`)
+- [x] View last 5 commits
+- [x] View file history for a specific file
+- [x] Use Git Graph extension (if installed) to visualize history
 
 ---
 
@@ -187,7 +187,7 @@ Practice these Git commands in terminal:
 
 ## Progress Tracking
 
-**Completed Tasks:** 36 / 80+
+**Completed Tasks:** 41 / 80+
 
 **Last Updated:** December 2024
 
